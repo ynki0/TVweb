@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+    background-color: var(--bg);
+    color: var(--light_white);
+    overflow-x: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #2a2a2a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gradient);
+    border-radius: 10px;
+}
+
+img,
+table,
+input,
+.input,
+.btn {
+    user-select: none;
+}

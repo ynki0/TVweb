@@ -1,0 +1,30 @@
+:root {
+    --bg:#101010;
+    --secondary_bg: #121212;
+    --light_white:#EDEDED;
+    --front_btn: #FF6B16;
+    --gray: #282828;
+    --light-gray: #707070;
+    --gradient: linear-gradient(to right, #FE800A, #FF7312, #EB1B21);;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url("../../assets/fonts/Gilroy-Regular.ttf") format('truetype');
+    font-weight: 650;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../assets/fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../assets/fonts/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 750;
+    font-style: normal;
+}

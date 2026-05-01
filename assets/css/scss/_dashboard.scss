@@ -1,0 +1,167 @@
+
+
+#dashboard {
+  margin: 180px auto 0;
+  padding: 0 100px;
+}
+
+@media (max-width: 999px) {
+  #dashboard {
+    padding: 0 40px;
+  }
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.dashboard-title {
+  font-size: 49px;
+  font-weight: bold;
+}
+.subscription-box {
+  margin-top: 0px;
+  width: 497px;
+  border: 4px solid #282828;
+  border-radius: 40px;
+  background-color: transparent;
+  padding: 40px;
+}
+.current-subscription {
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+.subscription-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.left-column, .right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-column {
+  flex: 3;
+}
+.right-column {
+  flex: 1;
+  align-items: center;
+}
+.subscription-option {
+  font-size: 27px;
+  font-weight: bold;
+}
+.connection-detail {
+  font-size: 21px;
+  font-weight: bold;
+  color: #404040;
+  margin-top: 5px;
+}
+.renew-button {
+  width: 160px;
+  height: 55px;
+  background-color: #FF6D16;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.subscription-container {
+  display: flex;
+  align-items: start;
+  margin-top: 60px;
+  gap: 80px;
+}
+
+.subscription-box {
+  width: 497px;
+  border: 4px solid #282828;
+  border-radius: 40px;
+  background-color: transparent;
+  padding: 40px;
+}
+
+.iptv-details {
+  font-size: 28px;
+  color: #404040;
+  font-weight: bold;
+
+  margin-top: 40px;
+}
+.how-to-install {
+  margin-top: 90px;
+  font-size: 33px;
+  font-weight: bold;
+}
+.install-details, .recommendation {
+  font-size: 25px;
+  color: #404040;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.recommendation {
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.app-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.app-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-apps {
+  flex: 1;
+}
+
+.right-apps {
+  flex: 3;
+}
+
+.app-button {
+  background-color: #FF6D16;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  padding: 20px 0px;
+  cursor: pointer;
+  margin: 25px 0px 0 0;
+  text-align: center;
+}
+
+.vertical-line {
+  width: 3px;
+  background-color: #3E3E3E;
+  margin: 0 20px;
+  align-self: stretch;
+}
+
+
+.firestick-instructions {
+  margin-top: 70px;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.firestick-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.5;
+}

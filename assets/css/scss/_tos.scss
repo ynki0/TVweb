@@ -1,0 +1,38 @@
+#tos {
+  padding: 0 120px 10px;
+  margin-top: 230px;
+}
+
+@media (max-width: 999px) {
+  #tos {
+    padding: 0 50px 10px;
+  }
+}
+
+
+#tos .title {
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 70px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+.text-medium {
+  font-weight: normal;
+}
+
+.text-content .text-bold,
+.text-content .text-medium {
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+#tos .line {
+  height: 3px;
+  background-color: #282828;
+  margin: 40px 0;
+  width: 100%;
+}
+

@@ -1,0 +1,64 @@
+.navbar {
+  padding: 0 5px;
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change color to black */
+}
+
+
+.navbar_top-right {
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar_register-button {
+  position: relative;
+  font-size: 18px;
+  color: var(--light_white);
+  padding: 8px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.navbar_top-right > * {
+  margin-left: 30px;
+}
+
+.navbar_logo-container {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_logo {
+  width: auto;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.navbar_logo-text {
+  margin-top: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+/* New CSS to hide the image on mobile devices */
+@media (max-width: 767px) {
+  .navbar_top-right  {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+// GLOBAL
+@import './scss/variables';
+@import './scss/global';
+
+///Components
+@import './scss/components/footer';
+@import './scss/components/navbar';
+
+// Pages
+@import './scss/dashboard';
+@import './scss/landing';
+@import './scss/login';
+@import './scss/tos';
