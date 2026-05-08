@@ -1,2 +1,2 @@
 # TVweb
-<img width="2372" height="1784" alt="advertisement" src="https://github.com/user-attachments/assets/88e149b4-4cac-4231-9c57-ae2731541d63" />
+<img width="1839" height="675" alt="image" src="https://github.com/user-attachments/assets/e901e800-b071-4721-883b-2a418b662d12" />
